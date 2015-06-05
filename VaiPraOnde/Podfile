@@ -1,0 +1,17 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target 'VaiPraOnde' do
+
+pod 'pop', '~> 1.0.7'
+pod 'RestKit', '~> 0.24.1'
+pod 'PonyDebugger', :git => 'https://github.com/square/PonyDebugger.git'
+pod 'Parse', '~> 1.7.2.2'
+pod 'ParseCrashReporting', '~> 1.7.2.2'
+pod 'ParseFacebookUtilsV4', '~> 1.7.2.2'
+end
+
+target 'VaiPraOndeTests' do
+
+end
+
